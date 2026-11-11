@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" alt="Terminal animada: quién soy, mis proyectos, mi método y los agentes que coordino" width="100%" />
+  <img src="assets/ascii.svg" alt="Animación en arte ASCII" width="100%" />
 </p>
 
 Ingeniero informático y Junior Project Manager de IT en Las Palmas de Gran Canaria. Dirijo proyectos de software y trabajo con un ecosistema de agentes de IA, MCP y modelos locales que acelera la implementación. La arquitectura, los criterios de aceptación, la revisión de cada pull request y el despliegue son míos.
