@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Romén Adama Caetano Ramírez, Technical Project Manager y orquestador de IA">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#121214"/>
+    </linearGradient>
+    <style>
+      .anillo { fill: none; stroke: #8b5cf6; stroke-width: 2.2; }
+      .a1 { animation: pulso 5s ease-in-out infinite; }
+      .a2 { animation: pulso 5s ease-in-out .5s infinite; }
+      .a3 { animation: pulso 5s ease-in-out 1s infinite; }
+      .a4 { animation: pulso 5s ease-in-out 1.5s infinite; }
+      .a5 { animation: pulso 5s ease-in-out 2s infinite; }
+      @keyframes pulso { 0%, 100% { stroke-opacity: .28; } 50% { stroke-opacity: .95; } }
+      @media (prefers-reduced-motion: reduce) { .anillo { animation: none; stroke-opacity: .6; } }
+      .nombre { font: 700 46px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #fafafa; letter-spacing: -.5px; }
+      .rol { font: 500 22px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #a78bfa; }
+      .linea { font: 400 18px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #a1a1aa; }
+    </style>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="url(#fondo)"/>
+  <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#27272a"/>
+  <circle cx="980" cy="170" r="210" fill="url(#halo)"/>
+  <g transform="translate(980 170)">
+    <circle class="anillo a5" r="150"/>
+    <circle class="anillo a4" r="120"/>
+    <circle class="anillo a3" r="90"/>
+    <circle class="anillo a2" r="60"/>
+    <circle class="anillo a1" r="30"/>
+    <circle r="8" fill="#fafafa"/>
+  </g>
+  <rect x="72" y="96" width="56" height="5" rx="2.5" fill="#8b5cf6"/>
+  <text x="72" y="160" class="nombre">Romén Adama Caetano Ramírez</text>
+  <text x="72" y="200" class="rol">Technical Project Manager · AI Orchestration</text>
+  <text x="72" y="244" class="linea">Defino la arquitectura, reviso cada PR y despliego.</text>
+  <text x="72" y="270" class="linea">Agentes de IA, MCP y modelos locales para entregar antes.</text>
+</svg>
