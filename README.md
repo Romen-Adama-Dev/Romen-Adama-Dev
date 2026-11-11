@@ -9,24 +9,28 @@
   <img alt="ES / EN" src="https://img.shields.io/badge/ES%20%2F%20EN-0d0d0d?style=for-the-badge" />
 </p>
 
-Ingeniero informático (ULPGC, 2025) y Junior Project Manager de IT. Acabo de entregar el Trabajo Fin de Máster en Gestión de Proyectos: un asistente de IA que funciona entero en un servidor propio.
+Ingeniero informático y Junior Project Manager de IT en Las Palmas de Gran Canaria. Dirijo proyectos de software y trabajo con un ecosistema de agentes de IA, MCP y modelos locales que acelera la implementación. La arquitectura, los criterios de aceptación, la revisión de cada pull request y el despliegue son míos.
 
-Trabajo con un ecosistema de agentes de IA (Claude Code, Codex y modelos locales con Ollama) conectados por MCP y por una red privada con Tailscale. Me sirve para entregar antes sin perder el control: yo defino la arquitectura y los criterios de aceptación, reviso cada pull request y hago el despliegue. Cada cambio entra por una rama y una PR revisada.
-
-## En qué trabajo ahora
-
-[jarvis-local](https://github.com/Romen-Adama-Dev/jarvis-local) es un asistente para jefes de proyecto. Responde sobre la documentación propia citando documento y página, y dice que no lo sabe cuando no encuentra evidencia. La inferencia y el RAG corren en local (Ollama, Qdrant, FastAPI, PostgreSQL), y desde Telegram gestiona tareas, hitos y riesgos en OpenProject, convierte una grabación en acta y prepara correos que solo salen si los confirmo. Antes de elegir modelo comparé cuatro en una GPU de 8 GB y descarté el más rápido porque inventaba respuestas que el contexto no tenía. Se levanta con `docker compose up`.
-
-[erp-esignature-connector-demo](https://github.com/Romen-Adama-Dev/erp-esignature-connector-demo) recrea con datos ficticios un patrón de integración que he llevado en empresa: un conector en Python entre un ERP simulado y una plataforma de firma electrónica autoalojada, con procesamiento por lotes, reintentos, envíos que no se duplican y registros sin datos personales. Lleva su WBS, su registro RAID, el plan y las decisiones de diseño.
-
-Un caso de estudio de `supernodo` (en preparación) contará cómo opero un servidor propio como nodo central de agentes: memoria compartida entre ellos, una rama y una PR por tarea, revisión cruzada y aprobación por Telegram para las acciones que no tienen vuelta atrás.
+## Proyectos
 
 <p>
-  <a href="https://github.com/Romen-Adama-Dev/jarvis-local"><img height="130" alt="jarvis-local" src="https://github-readme-stats.vercel.app/api/pin/?username=Romen-Adama-Dev&repo=jarvis-local&bg_color=0d0d0d&title_color=a78bfa&text_color=e4e4e7&icon_color=8b5cf6&border_color=27272a&border_radius=10" /></a>
-  <a href="https://github.com/Romen-Adama-Dev/ITC-Dashboard"><img height="130" alt="ITC-Dashboard" src="https://github-readme-stats.vercel.app/api/pin/?username=Romen-Adama-Dev&repo=ITC-Dashboard&bg_color=0d0d0d&title_color=a78bfa&text_color=e4e4e7&icon_color=8b5cf6&border_color=27272a&border_radius=10" /></a>
+  <a href="https://github.com/Romen-Adama-Dev/jarvis-local"><img src="assets/tarjeta-jarvis.svg" alt="jarvis-local: asistente de IA local para jefes de proyecto. 53 PR fusionadas, 4 modelos comparados, 9 perfiles de despliegue" width="49%" /></a>
+  <a href="https://github.com/Romen-Adama-Dev/erp-esignature-connector-demo"><img src="assets/tarjeta-erp.svg" alt="erp-esignature-connector-demo: integración ERP y firma electrónica con datos ficticios. 18 tests, 6 ADR, WBS, RAID y plan" width="49%" /></a>
+</p>
+<p>
+  <a href="https://github.com/Romen-Adama-Dev/ITC-Dashboard"><img src="assets/tarjeta-itc.svg" alt="ITC Dashboard: librería de componentes Angular para cuadros de mando. 157 commits propios" width="49%" /></a>
+  <img src="assets/tarjeta-supernodo.svg" alt="supernodo: servidor propio que coordina agentes de IA. 40 servicios systemd, 234 tests, 4 agentes" width="49%" />
 </p>
 
-Antes, en el Trabajo Fin de Grado, hice [ITC Dashboard](https://github.com/Romen-Adama-Dev/ITC-Dashboard), una librería de componentes Angular para montar cuadros de mando arrastrando y soltando.
+En [jarvis-local](https://github.com/Romen-Adama-Dev/jarvis-local) comparé cuatro modelos en una GPU de 8 GB y descarté el más rápido porque inventaba respuestas que el contexto no tenía. El caso de estudio público de `supernodo` está en preparación.
+
+## Cómo trabajo
+
+<p align="center">
+  <img src="assets/flujo.svg" alt="Cómo trabajo: alcance, rama y PR, revisión cruzada, mi revisión, despliegue y medición" width="100%" />
+</p>
+
+Cada proyecto lleva su WBS, su registro RAID, un plan con hitos y las decisiones de arquitectura escritas como ADR. El plan vivo está en OpenProject o en Plane.
 
 ## Stack
 
@@ -38,18 +42,18 @@ Antes, en el Trabajo Fin de Grado, hice [ITC Dashboard](https://github.com/Romen
 
 ![OpenProject](https://img.shields.io/badge/OpenProject-0d0d0d?style=flat-square&logo=openproject&logoColor=a78bfa) ![Plane](https://img.shields.io/badge/Plane-0d0d0d?style=flat-square) ![WBS](https://img.shields.io/badge/WBS-0d0d0d?style=flat-square) ![RAID](https://img.shields.io/badge/RAID-0d0d0d?style=flat-square) ![Gantt](https://img.shields.io/badge/Gantt-0d0d0d?style=flat-square) ![ADR](https://img.shields.io/badge/ADR-0d0d0d?style=flat-square) ![Scrum y Kanban](https://img.shields.io/badge/Scrum%20y%20Kanban-0d0d0d?style=flat-square)
 
-Gestión de proyectos: planifico con WBS, registro RAID y Gantt, y dejo las decisiones de arquitectura escritas como ADR. Uso OpenProject y Plane (también Jira y Confluence) con Scrum, Kanban o enfoques híbridos según el proyecto.
-
 ## Actividad
 
-<p>
-  <img height="170" alt="Estadísticas de GitHub" src="https://github-readme-stats.vercel.app/api?username=Romen-Adama-Dev&show_icons=true&count_private=true&rank_icon=github&ring_color=8b5cf6&bg_color=0d0d0d&title_color=a78bfa&text_color=e4e4e7&icon_color=8b5cf6&border_color=27272a&border_radius=10" />
-  <img height="170" alt="Lenguajes más usados" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Romen-Adama-Dev&layout=compact&langs_count=8&bg_color=0d0d0d&title_color=a78bfa&text_color=e4e4e7&icon_color=8b5cf6&border_color=27272a&border_radius=10" />
+<p align="center">
+  <img alt="Racha de contribuciones" src="https://streak-stats.demolab.com?user=Romen-Adama-Dev&background=0D0D0F&border=27272A&stroke=27272A&ring=8B5CF6&fire=A78BFA&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=A78BFA&sideLabels=A1A1AA&dates=71717A&locale=es" />
 </p>
 
 ## Contacto
 
-LinkedIn: <!-- linkedin -->
+<p>
+  <a href="https://www.linkedin.com/in/rom%C3%A9n-adama-caetano-ram%C3%ADrez"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://romen-adama-dev.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0d0d0d?style=for-the-badge" /></a>
+</p>
 
 Español nativo. Inglés B2, preparando el C1.
 
