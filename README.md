@@ -3,13 +3,6 @@
 </p>
 
 <p align="center">
-  <img alt="Technical PM" src="https://img.shields.io/badge/Technical%20PM-8b5cf6?style=for-the-badge" />
-  <img alt="AI Orchestration" src="https://img.shields.io/badge/AI%20Orchestration-0d0d0d?style=for-the-badge" />
-  <img alt="Local-first" src="https://img.shields.io/badge/Local--first-0d0d0d?style=for-the-badge" />
-  <img alt="ES / EN" src="https://img.shields.io/badge/ES%20%2F%20EN-0d0d0d?style=for-the-badge" />
-</p>
-
-<p align="center">
   <img src="assets/terminal.svg" alt="Terminal animada: quién soy, mis proyectos, mi método y los agentes que coordino" width="100%" />
 </p>
 
