@@ -16,6 +16,10 @@ PROYECTOS = [
      [("157", "commits propios"), ("WCAG", "accesibilidad"), ("i18n", "internacionalización")]),
     ("supernodo", "supernodo", ["Servidor propio que coordina agentes de IA,", "despliega lo aprobado y avisa por Telegram."],
      [("40", "servicios systemd"), ("234", "tests"), ("4", "agentes coordinados")]),
+    ("al", "Business Central (AL)", ["Extensión de firma electrónica e informes para", "Dynamics 365 Business Central. Trabajo de empresa."],
+     [("26", "commits en un mes"), ("12.600", "líneas de AL"), ("AL", "con pruebas")]),
+    ("voz", "Agente de voz con IA", ["Backend de un sistema de llamadas atendidas por", "un agente de voz. Trabajo de empresa."],
+     [("88", "commits en 4 meses"), ("FastAPI", "y PostgreSQL"), ("Teams", "integrado")]),
 ]
 
 

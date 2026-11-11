@@ -18,8 +18,16 @@ Ingeniero informático y Junior Project Manager de IT en Las Palmas de Gran Cana
   <a href="https://github.com/Romen-Adama-Dev/ITC-Dashboard"><img src="assets/tarjeta-itc.svg" alt="ITC Dashboard: librería de componentes Angular para cuadros de mando. 157 commits propios" width="49%" /></a>
   <img src="assets/tarjeta-supernodo.svg" alt="supernodo: servidor propio que coordina agentes de IA. 40 servicios systemd, 234 tests, 4 agentes" width="49%" />
 </p>
+<p>
+  <img src="assets/tarjeta-al.svg" alt="Business Central (AL): extensión de firma electrónica e informes. 26 commits en un mes, 12.600 líneas de AL, con pruebas" width="49%" />
+  <img src="assets/tarjeta-voz.svg" alt="Agente de voz con IA: backend de un sistema de llamadas. 88 commits en 4 meses, FastAPI y PostgreSQL, integrado con Teams" width="49%" />
+</p>
 
-En [jarvis-local](https://github.com/Romen-Adama-Dev/jarvis-local) comparé cuatro modelos en una GPU de 8 GB y descarté el más rápido porque inventaba respuestas que el contexto no tenía. El caso de estudio público de `supernodo` está en preparación.
+En [jarvis-local](https://github.com/Romen-Adama-Dev/jarvis-local) comparé cuatro modelos en una GPU de 8 GB y descarté el más rápido porque inventaba respuestas que el contexto no tenía. Las dos últimas tarjetas son trabajo de empresa, descrito sin datos internos. El caso de estudio público de `supernodo` está en preparación.
+
+<p align="center">
+  <img src="assets/ascii.svg" alt="Animación en arte ASCII: la tapa de un procesador se levanta sobre el chip" width="100%" />
+</p>
 
 ## Cómo trabajo
 
@@ -31,7 +39,7 @@ Cada proyecto lleva su WBS, su registro RAID, un plan con hitos y las decisiones
 
 ## Stack
 
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=flat-square&logo=python&logoColor=a78bfa) ![FastAPI](https://img.shields.io/badge/FastAPI-0d0d0d?style=flat-square&logo=fastapi&logoColor=a78bfa) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql&logoColor=a78bfa) ![Redis](https://img.shields.io/badge/Redis-0d0d0d?style=flat-square&logo=redis&logoColor=a78bfa) ![TypeScript](https://img.shields.io/badge/TypeScript-0d0d0d?style=flat-square&logo=typescript&logoColor=a78bfa) ![Angular](https://img.shields.io/badge/Angular-0d0d0d?style=flat-square&logo=angular&logoColor=a78bfa) ![Next.js](https://img.shields.io/badge/Next.js-0d0d0d?style=flat-square&logo=nextdotjs&logoColor=a78bfa)
+![Python](https://img.shields.io/badge/Python-0d0d0d?style=flat-square&logo=python&logoColor=a78bfa) ![AL](https://img.shields.io/badge/AL%20%28Business%20Central%29-0d0d0d?style=flat-square&logo=dynamics365&logoColor=a78bfa) ![FastAPI](https://img.shields.io/badge/FastAPI-0d0d0d?style=flat-square&logo=fastapi&logoColor=a78bfa) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql&logoColor=a78bfa) ![Redis](https://img.shields.io/badge/Redis-0d0d0d?style=flat-square&logo=redis&logoColor=a78bfa) ![TypeScript](https://img.shields.io/badge/TypeScript-0d0d0d?style=flat-square&logo=typescript&logoColor=a78bfa) ![Angular](https://img.shields.io/badge/Angular-0d0d0d?style=flat-square&logo=angular&logoColor=a78bfa) ![Next.js](https://img.shields.io/badge/Next.js-0d0d0d?style=flat-square&logo=nextdotjs&logoColor=a78bfa)
 
 ![Ollama](https://img.shields.io/badge/Ollama-0d0d0d?style=flat-square&logo=ollama&logoColor=a78bfa) ![Qdrant](https://img.shields.io/badge/Qdrant-0d0d0d?style=flat-square&logo=qdrant&logoColor=a78bfa) ![MCP](https://img.shields.io/badge/MCP-0d0d0d?style=flat-square&logo=modelcontextprotocol&logoColor=a78bfa) ![Claude Code](https://img.shields.io/badge/Claude%20Code-0d0d0d?style=flat-square&logo=anthropic&logoColor=a78bfa) ![Codex](https://img.shields.io/badge/Codex-0d0d0d?style=flat-square&logo=openai&logoColor=a78bfa) ![Antigravity](https://img.shields.io/badge/Antigravity-0d0d0d?style=flat-square&logo=google&logoColor=a78bfa)
 

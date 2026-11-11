@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 204" width="460" height="204" role="img" aria-label="Business Central (AL)">
+  <style>.t{font:700 21px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#fafafa}.d{font:400 14.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#a1a1aa}.n{font:700 24px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#fafafa}.e{font:400 12.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#a78bfa}</style>
+  <rect x=".5" y=".5" width="459" height="203" rx="14" fill="#0d0d0f" stroke="#27272a"/>
+  <rect x="28" y="24" width="34" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="28" y="54" class="t">Business Central (AL)</text>
+  <text x="28" y="78" class="d">Extensión de firma electrónica e informes para</text><text x="28" y="100" class="d">Dynamics 365 Business Central. Trabajo de empresa.</text>
+  <line x1="28" y1="124" x2="432" y2="124" stroke="#27272a"/>
+  <text x="28" y="158" class="n">26</text><text x="28" y="178" class="e">commits en un mes</text><text x="170" y="158" class="n">12.600</text><text x="170" y="178" class="e">líneas de AL</text><text x="312" y="158" class="n">AL</text><text x="312" y="178" class="e">con pruebas</text>
+</svg>
