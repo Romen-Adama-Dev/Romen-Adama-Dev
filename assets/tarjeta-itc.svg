@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 204" width="460" height="204" role="img" aria-label="ITC Dashboard">
+  <style>.t{font:700 21px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#fafafa}.d{font:400 14.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#a1a1aa}.n{font:700 24px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#fafafa}.e{font:400 12.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;fill:#a78bfa}</style>
+  <rect x=".5" y=".5" width="459" height="203" rx="14" fill="#0d0d0f" stroke="#27272a"/>
+  <rect x="28" y="24" width="34" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="28" y="54" class="t">ITC Dashboard</text>
+  <text x="28" y="78" class="d">Librería de componentes Angular para montar</text><text x="28" y="100" class="d">cuadros de mando arrastrando y soltando.</text>
+  <line x1="28" y1="124" x2="432" y2="124" stroke="#27272a"/>
+  <text x="28" y="158" class="n">157</text><text x="28" y="178" class="e">commits propios</text><text x="170" y="158" class="n">WCAG</text><text x="170" y="178" class="e">accesibilidad</text><text x="312" y="158" class="n">i18n</text><text x="312" y="178" class="e">internacionalización</text>
+</svg>
